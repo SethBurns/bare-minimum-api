@@ -62,7 +62,7 @@ const tasks = {
     "Go through your computer and delete the oldest unused programs and files you don't use anymore.",
     "Organize something that will save you time in the future because it is organized: Spice Rack. Movie/Book Shelf. Wine Cellar?",
     "Pick the messiest drawer in your kitchen. Make it less messy.",
-    "",
+    "test",
     "",
     "",
     "",
