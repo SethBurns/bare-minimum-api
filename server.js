@@ -40,15 +40,14 @@ app.post('/api/v1/savedtasks', (req, res) => {
 
 app.patch('/api/v1/savedtasks/:id', (req, res) => {
   const { id } = req.params;
-  const { complete } = req.body;
+  const { completed } = req.body;
 
   const foundTask = app.locals.savedTasks.find(task => task.id === parseInt(id));
-
   if (!foundTask) {
     return res.status(404).json({ error: 'Task not found.' });
   }
   const foundIndex = app.locals.savedTasks.indexOf(foundTask)
-  app.locals.savedTasks[foundIndex].complete = complete;
+  app.locals.savedTasks[foundIndex].completed = completed;
 
   res.status(201).json(app.locals.savedTasks);
 });
