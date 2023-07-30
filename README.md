@@ -6,7 +6,19 @@
 This is an API which serves data for miniscule tasks to complete based on a category. Each task has an id, task, seen, category, saved, and completed property. Constructed using PostgreSQL, Knex, and Express.js, deployed to Heroku. 
 
 ## Set Up
+Follow these steps to set up and run the backend API:
 
+1. Clone the repository: Start by cloning this repository to your local machine using the following command:  
+`git clone git@github.com:SethBurns/bare-minimum-api.git`
+
+2. Install dependencies: Navigate to the cloned repository's directory and install the required dependencies using your package manager:  
+`cd bare-minimum-api`  
+`npm install`
+
+3. Start the server: Once the dependencies are installed and the environment variables are set, start the backend server with the following command:  
+`npm start`    
+If you prefer automatic server restarts during development, use nodemon with the following command:  
+`node server.js`
 
 ## Endpoints
 
