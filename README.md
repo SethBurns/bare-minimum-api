@@ -1,6 +1,6 @@
 # Bare-Minimum API
-## [View The Deployed API Here](https://bare-minimum-api-53c62eb03bf8.herokuapp.com)
-## [View Front-End Repo for this API](https://github.com/SethBurns/bare-minimum)
+### [View The Deployed API Here](https://bare-minimum-api-53c62eb03bf8.herokuapp.com)
+### [View Front-End Repo for this API](https://github.com/SethBurns/bare-minimum)
 ## Overview
 
 This is an API which serves data for miniscule tasks to complete based on a category. Each task has an id, task, seen, category, saved, and completed property. Constructed using PostgreSQL, Knex, and Express.js, deployed to Heroku. 
